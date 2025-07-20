@@ -2,7 +2,17 @@ This is a Retrieval-Augmented Generation (RAG) chatbot built using LangChain and
 
 Project Architecture and Flow
 
-<pre> ```text chatbot/ ├── data/ # Raw input documents (e.g., PDFs) ├── chunks/ # Preprocessed, chunked text segments ├── vectordb/ # Chroma vector database with embeddings ├── src/ # Source scripts │ ├── chunk_text.py # Loads + splits text │ ├── embed_store.py # Creates and saves embeddings │ └── rag_query.py # CLI chatbot (non-streaming) ├── app.py # Streamlit chatbot with streaming ├── requirements.txt # All dependencies └── README.md # You're here! ``` </pre>
+chatbot/
+├── data/         # Raw input documents (e.g., PDFs)
+├── chunks/       # Preprocessed, chunked text segments
+├── vectordb/     # Chroma vector database with embeddings
+├── src/          # Source scripts
+│   ├── chunk_text.py     # Loads + splits text
+│   ├── embed_store.py    # Creates and saves embeddings
+│   └── rag_query.py      # CLI chatbot (non-streaming)
+├── app.py        # Streamlit chatbot with streaming
+├── requirements.txt # All dependencies
+└── README.md     # You're here!
 
 Steps to Run
 1.  Preprocessing (Chunking)
