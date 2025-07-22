@@ -24,4 +24,4 @@ db.persist()
 #     print(chunk.page_content)
 
 
-# print(f"✅ Successfully split into {len(chunks)} chunks and saved to vector DB.")
+
