@@ -4,3 +4,11 @@ langchain-openai
 python-dotenv
 sentence-transformers
 chromadb
+streamlit
+langchain
+langchain-community
+faiss-cpu
+huggingface_hub
+sentence-transformers
+python-dotenv
+pandas
